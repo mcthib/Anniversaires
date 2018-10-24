@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Anniversaires</title>
+    <script src="dates.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="bundle.js"></script>
+    <style>
+        body
+        {
+            color: white;
+            font-family: Lato;
+            margin: 0px;
+            overflow: hidden;
+            font-size: 140%;
+            background-color: black;
+            background-image: url("Background.jpg");
+            background-position: right bottom;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+        #container
+        {
+            width: 100%;
+            height: 100%;
+        }
+        .header_td
+        {
+            font-weight: bold;
+            text-decoration: underline;
+            font-size: 250%;
+        }
+
+        /* Birthdays styling */
+        .birthdaySeparator
+        {
+            height: 1px;
+            width: 25px;
+        }
+        .header
+        {
+            text-align: center;
+            vertical-align: middle;
+            height: 50px;
+        }
+        #birthdays
+        {
+            table-layout: fixed;
+            margin: auto;
+            padding: 70px 0;
+        }
+        .birthdayName
+        {
+            text-align: right;
+        }
+        .birthdayDate
+        {
+            text-align: left;
+            color: #DDDDDD;
+        }
+    </style>
+    <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+</head>
+<body>
+  <div id="container">
+    <table id="birthdays">
+        <tr class="header">
+            <td colspan="3" class="header_td">Anniversaires</td>
+        </tr>
+    </table>
+  </div>
+</body>
+</html>
