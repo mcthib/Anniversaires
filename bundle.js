@@ -61,7 +61,7 @@ Date.prototype.addDays = function(days)
             reference = new Date(Date.now());
         }
 
-        return (new Date((reference - birthDateDate))).getFullYear() - 1970;            
+        return reference.getFullYear() - birthDateDate.getFullYear();
     }
 
     // Adds the birthdays to the birthday table
